@@ -1,0 +1,15 @@
+    [package]
+    name = "SecureDocumentNotarization"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0x3ddc23d2adc70d0ecf8a76b655efbfdf7e39131784bbba9830880ae835f9ca5a'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
